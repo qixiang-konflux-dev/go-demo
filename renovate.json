@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "lockFileMaintenance": {
+    "enabled": false
+  },
+  "postUpdateOptions": ["gomodTidy"],
+  "vulnerabilityAlerts": {
+    "enabled": true
+  },
+  "osvVulnerabilityAlerts": true,
+  "packageRules": [
+    {
+      "packageNames": ["golang.org/x/net"],
+      "allowedVersions": "<=0.23.0"
+    }
+  ]
+}
