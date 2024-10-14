@@ -1,0 +1,9 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "packageNames": ["golang.org/x/net"],
+      "allowedVersions": "<=0.22.0"
+    }
+  ]
+}
